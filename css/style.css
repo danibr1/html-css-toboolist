@@ -1,0 +1,201 @@
+/* GENERAL */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:#f6f8f9;
+}
+
+/* HEADER */
+.header{
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo{
+    display:inline-block;
+    vertical-align: middle;
+    padding:10px;
+}
+
+.title{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 40px ;
+    font-weight: bold;
+}
+
+/* MAIN CONTAINER*/
+.container{
+    border-radius: 10px;
+    width: 1170px;
+    max-width: 100%;
+    margin:0 auto;
+    background-color: white;
+    margin-top: 30px;
+}
+
+/* SECTION BUTTON */
+.buttons{
+    height: 70px;
+    border-bottom: 2px solid #f6f8f9;
+    vertical-align: middle;
+    padding: 14px 60px;
+    }
+
+.add-task{
+    display: inline-block;
+    width: 100px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    background-color:#47adf1;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+.add-section{
+    display: inline-block;
+    width: 150px;
+    height:40px;
+    line-height: 40px;
+    color: lightgray ;
+    text-align: center;
+    font-weight: bold;
+    background-color:#ffffff;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+/* LIST SECTION */
+.list{
+    padding:10px 80px ;
+}
+
+.title-task{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+li{
+    list-style:none;
+    margin-bottom:20px;
+}
+
+/* ICON */
+.icon-check{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+    color:green;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+.icon-remove{
+    font-size: 10px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+    color:red;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+/* LABELS */
+.editorial-label{
+    display: inline-block;
+    width: 70px;
+    height:20px;
+    line-height: 20px;
+    text-align: center;
+    color:white;
+    font-size: 10px;
+    font-weight: bold;
+    background-color:#47adf1;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.q1-label{
+    display: inline-block;
+    width: 70px;
+    height:20px;
+    line-height: 20px;
+    text-align: center;
+    color:white;
+    font-size: 10px;
+    font-weight: bold;
+    background-color:#8b2dd8;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.recruting-label{
+    display: inline-block;
+    width: 70px;
+    height:20px;
+    line-height: 20px;
+    text-align: center;
+    color:white;
+    font-size: 10px;
+    font-weight: bold;
+    background-color:#64c0a9;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.mobile-label{
+    display: inline-block;
+    width: 70px;
+    height:20px;
+    line-height: 20px;
+    text-align: center;
+    color:white;
+    font-size: 10px;
+    font-weight: bold;
+    background-color:#f29e33;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.website-label{
+    display: inline-block;
+    width: 70px;
+    height:20px;
+    line-height: 20px;
+    text-align: center;
+    color:white;
+    font-size: 10px;
+    font-weight: bold;
+    background-color:#d863a1;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.sales-label{
+    display: inline-block;
+    width: 70px;
+    height:20px;
+    line-height: 20px;
+    text-align: center;
+    color:white;
+    font-size: 10px;
+    font-weight: bold;
+    background-color:#b0c926;
+    border-radius: 10px;
+    vertical-align: middle;
+}
